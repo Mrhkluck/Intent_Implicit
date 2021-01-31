@@ -1,0 +1,22 @@
+<LinearLayout android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:gravity="center"
+    tools:context=".MainActivity"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/et_link"
+        android:hint="Enter website Name"/>
+
+
+    <Button
+        android:layout_width="130dp"
+        android:onClick="openLink"
+        android:text="goto"
+        android:layout_height="80dp"/>
+
+
+</LinearLayout>
